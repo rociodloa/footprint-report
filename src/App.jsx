@@ -6,25 +6,23 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Calculator from './pages/Calculator';
 import Results from './pages/Results';
+import SignUp from './pages/SignUp';
 import GlobalStyles from './styles/GlobalStyles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <Router>
-      {/* Global styles */}
       <GlobalStyles />
-      
-      {/* Main layout */}
-      <div className="app">
+        <div className="app">
         <Header />
-        {/* Page content */}
         <main>
           <Menu/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </main>
         <Footer />

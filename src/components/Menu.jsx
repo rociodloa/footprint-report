@@ -19,6 +19,7 @@ const Container = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: 0px 36px;
+    min-height: 60px;
   `;
 
 const Logo = styled.div`
@@ -81,8 +82,6 @@ const Menu = () => {
   return (
     <NavBar>
       <Container>
-        <h1>Sustainability</h1>
-
         <BurgerMenu onClick={() => setMenuOpen(!menuOpen)}>
           <span />
           <span />
@@ -93,6 +92,7 @@ const Menu = () => {
           <StyledLink to="/">Home</StyledLink>
           <StyledLink to="/calculator">Calculator</StyledLink>
           <StyledLink to="/results">Results</StyledLink>
+          <StyledLink to="/signup">Sign Up</StyledLink>
         </MenuLinks>
         </Container>
       </NavBar>
