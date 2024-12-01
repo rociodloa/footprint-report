@@ -1,23 +1,19 @@
-# Emission Tracker App
-The Emission Tracker App is a React-based web application designed to calculate and visualize carbon emissions. It provides users with insights into their activities' environmental impact and suggests ways to reduce emissions.
+# Footprint Report App
+The Footprint Report App is a React-based web application designed to calculate and visualize carbon emissions. It provides users with insights into their activities' environmental impact and suggests ways to reduce emissions.
 
 # Features
-User-Friendly Calculator: Calculate emissions based on user input for various activities.
-Interactive Visualizations: Display data in charts (e.g., bar charts) for better understanding.
-Data Flow Diagram: Visualize data flow using React Flow.
-Responsive Design: Works seamlessly across devices.
-Theming Support: Styled with Styled Components for light/dark themes.
-State Management: Uses MobX for efficient global state management.
-GraphQL Integration: Fetch and manage data dynamically with Apollo and GraphQL.
+- User-Friendly Calculator: Calculate emissions based on user input for various activities.
+- Interactive Visualizations: Display data in charts (e.g., bar charts) for better understanding.
+- Responsive Design: Works seamlessly across devices.
 
 # Technologies Used
-React: Frontend library.
-Styled Components: For styling.
-MobX: State management.
-GraphQL and Apollo: For API integration.
-React Flow: For visualizing data flow diagrams.
-Recharts or Chart.js: For interactive data visualizations.
-Nx: For workspace management.
+- React: Frontend library.
+- Styled Components: For styling.
+- MobX: State management.
+- GraphQL and Apollo: For API integration.
+- React Flow: For visualizing data flow diagrams.
+- Recharts or Chart.js: For interactive data visualizations.
+- Nx: For workspace management.
 
 # Installation
 Prerequisites
@@ -30,48 +26,27 @@ Clone the repository:
 git clone https://github.com/rociodloa/footprint-report
 cd footprint-report
 
-# Project Structure
-
-project-root/
-├── public/                 // Static files (e.g., favicon, index.html)
-├── src/
-│   ├── assets/             // Static assets (e.g., images)
-│   ├── components/         // Reusable UI components
-│   ├── context/            // MobX stores
-│   ├── graphql/            // GraphQL queries and mutations
-│   ├── hooks/              // Custom hooks
-│   ├── pages/              // Application pages
-│   ├── styles/             // Styled Components and themes
-│   ├── utils/              // Helper functions
-│   ├── App.jsx             // Main application component
-│   └── index.js            // Entry point for the React app
-└── README.md               // Project documentation
-
 # Usage
 Navigate to the calculator page to input your activity details (e.g., transportation, energy usage).
 View your results on the results page, including suggestions to lower emissions.
 Explore the data flow diagram for a visual representation of the application's data handling.
-Screenshots
-1. Home Page
-
-2. Results Page
 
 # Future Enhancements
-Integration with live environmental data APIs.
-User authentication for saving results.
-Localization for multi-language support.
-Contributing
-We welcome contributions to improve the app.
+- Integration with live environmental data APIs.
+- User authentication for saving results.
+- Localization for multi-language support.
+- Contributing
+- We welcome contributions to improve the app.
+- Theming Support: Styled with Styled Components for light/dark themes.
+- State Management: Uses MobX for efficient global state management.
+- GraphQL Integration: Fetch and manage data dynamically with Apollo and GraphQL.
+- Data Flow Diagram: Visualize data flow using React Flow.
 
 # Fork the repository.
 Create a feature branch: git checkout -b feature-name.
 Commit your changes: git commit -m "Add feature".
 Push the branch: git push origin feature-name.
 Open a pull request.
-
-# License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 
 # Getting Started with Create React App
 
